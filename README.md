@@ -11,13 +11,18 @@ Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境，它使得 
 Node.js 的核心特性之一是其非阻塞 I/O适合高并发，异步编程的直接体现就是回调
 
 
-## 工具链：包管理工具npm
+## 工具链: 包管理工具npm
 
 > npm类似maven 和 pip的一种js的包管理工具
 
 > pom.xml:package.json node_modules:maven_repo
 
 https://www.runoob.com/nodejs/nodejs-npm.html
+
+
+vscode 配置nodejs运行开发环境:
+
+安装以下插件: Node.js Extension Pack,Code Runner,JavaScript (ES6) code snippets
 
 
 ## code content
@@ -36,3 +41,5 @@ https://www.runoob.com/nodejs/nodejs-npm.html
 
 npm install express # node.js Web应用框架
 https://www.runoob.com/nodejs/nodejs-express-framework.html
+
+
