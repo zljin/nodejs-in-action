@@ -39,7 +39,31 @@ vscode 配置nodejs运行开发环境:
 
 包的自定义导入 myModule.js
 
-npm install express # node.js Web应用框架
+
+## express 
+
+> node.js Web应用框架,可用于快速创建一个RESTful API
+
+代码目录 src/express/server.js
+
 https://www.runoob.com/nodejs/nodejs-express-framework.html
 
+npm install express
 
+### 用户增删改查接口
+
+- 创建用户: `POST /api/users`
+- 获取所有用户: `GET /api/users`
+- 获取用户详情: `GET /api/users/:id`
+- 更新用户: `PUT /api/users/:id`
+- 删除用户: `DELETE /api/users/:id`
+
+初始用户数据存储在 `src/express/user.json` 文件中。
+
+### 跨域请求
+
+使用 `cors` 中间件来支持跨域请求。
+
+```bash
+npm install cors
+```
